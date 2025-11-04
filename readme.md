@@ -1,6 +1,6 @@
 ### Arduino HID mouse
 ## This repository contains HID mouse emulation for the [Zelesis AI Aimbot](https://zelesis.com).
-- To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`, `ARDUINO USB HOST SHIELD`, and a soldering iron if you don't have one.
+- To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`, `ARDUINO USB HOST SHIELD`, and a soldering iron if you don't have one, or you can simply buy a pre-soldered board, more on that later.
 <br></br>
 - Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 <br></br>
@@ -8,7 +8,7 @@
 <br></br>
 - Download and unpack [this](https://github.com/felis/USB_Host_Shield_2.0/releases/tag/1.6.2) archive into `C:\Users\your_username\Documents\Arduino\libraries\USB_Host_Shield_2.0-1.6.2`
 <br></br>
-- Solder 3 contacts on the board to increase the voltage as shown in the image.
+- Solder 3 contacts on the board to increase the voltage as shown in the image, if you have a pre soldered board, skip this step.
   - ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_board.gif)
 <br></br>
 - Open the file `C:\Users\your_username\Documents\Arduino\HID_Arduino\HID_Arduino.ino` or `C:\Users\your_username\Documents\Arduino\hidmousereport\hidmousereport.ino` if you have logitech G-series mouse
@@ -22,7 +22,7 @@
 5. Upload the program to your device
 ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_ide_select_board_en.png)
 <br></br>
-- Connect the mouse to the host shield.
+- Connect the mouse to the host shield. I should also mention that for 100% of games, simply having the arduino plugged in and your normal mouse plugged in separately instead of chaining them together works completely fine, and you can skip alot of difficult steps if you are ok with doing it that way, since then you won't have to edit the code at all and can just keep it exactly as is.
 <br></br>
 - Test the mouse for functionality. If everything works as it should, then you have been successful and lucky with the mouse model. But if something does not work correctly, continue to the next steps. (For logitech G-series tutorial is ends.)
 <br></br>
@@ -53,5 +53,5 @@
 <br></br>
 - Do this with all the output data and normalize the structure.
 <br></br>
-- Do not forget to disable the `#define ENABLE_UHS_DEBUGGING 0` in `settings.h` after completing all the steps.
+## - Do not forget to disable the `#define ENABLE_UHS_DEBUGGING 0` in `settings.h` after completing all the steps.
 <br></br>
