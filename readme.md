@@ -9,7 +9,7 @@
 - Download and unpack [this](https://github.com/felis/USB_Host_Shield_2.0/releases/tag/1.6.2) archive into `C:\Users\your_username\Documents\Arduino\libraries\USB_Host_Shield_2.0-1.6.2`
 <br></br>
 - Solder 3 contacts on the board to increase the voltage as shown in the image.
-  - ![](https://github.com/zen-ham/HID_Arduino/blob/main/docs/media/host_shield_board.gif)
+  - ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_board.gif)
 <br></br>
 - Open the file `C:\Users\your_username\Documents\Arduino\HID_Arduino\HID_Arduino.ino` or `C:\Users\your_username\Documents\Arduino\hidmousereport\hidmousereport.ino` if you have logitech G-series mouse
 <br></br>
@@ -20,7 +20,7 @@
 3. Select the device
 4. Select the port to which the device is connected
 5. Upload the program to your device
-![](https://github.com/zen-ham/HID_Arduino/blob/main/docs/media/host_shield_ide_select_board_en.png)
+![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_ide_select_board_en.png)
 <br></br>
 - Connect the mouse to the host shield.
 <br></br>
@@ -33,17 +33,17 @@
 - Upload the script to the device.
 <br></br>
 - In the Arduino IDE, open the Tools->Serial Monitor tab.
-  - ![](https://github.com/zen-ham/HID_Arduino/blob/main/docs/media/serial_monitor.png)
+  - ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/serial_monitor.png)
 <br></br>
 - Select 9600 baud.
-  - ![](https://github.com/zen-ham/HID_Arduino/blob/main/docs/media/baud.png)
+  - ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/baud.png)
 <br></br>
 - You should see the data that the mouse sends to the host shield.
 <br></br>
 - Switch to the `hidcustom.h` tab and look at the `struct MYMOUSEINFO` structure
 <br></br>
 - In my case, it looks like this:
-  - ![](https://github.com/zen-ham/HID_Arduino/blob/main/docs/media/struct.png)
+  - ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/struct.png)
 <br></br>
 - For me, the mouse button bytes are transmitted first, but your data might be different, like the mouse coordinates on the X-axis, for example.
 <br></br>
