@@ -22,7 +22,9 @@
 5. Upload the program to your device
 ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_ide_select_board_en.png)
 <br></br>
-- Connect the mouse to the host shield. I should also mention that for 100% of games, simply having the arduino plugged in and your normal mouse plugged in separately instead of chaining them together works completely fine, and you can skip alot of difficult steps if you are ok with doing it that way, since then you won't have to edit the code at all and can just keep it exactly as is.
+- Connect the mouse to the host shield.
+> [!NOTE]
+> I should also mention that for 100% of games, simply having the arduino plugged in and your normal mouse plugged in separately instead of chaining them together works completely fine, and you can skip alot of difficult steps if you are ok with doing it that way, since then you won't have to edit the code at all and can just keep it exactly as is.
 <br></br>
 - Test the mouse for functionality. If everything works as it should, then you have been successful and lucky with the mouse model. But if something does not work correctly, continue to the next steps. (For logitech G-series tutorial is ends.)
 <br></br>
