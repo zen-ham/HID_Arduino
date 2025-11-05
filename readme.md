@@ -26,7 +26,7 @@
   5. Upload the program to your device
   ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_ide_select_board_en.png)
 
-## Advanced mode with Host Shield <small style="font-size: 0.6em;">(Theoretically harder for AC to detect but no AC currently detects either method.)</small>
+## Advanced mode with Host Shield <small>(Theoretically harder for AC to detect but no AC currently detects either method.)</small>
 
 - **1** To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`, `ARDUINO USB HOST SHIELD`, and a soldering iron(Optional, if you don't have one, or you can simply buy a pre-soldered board.)
 
