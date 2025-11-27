@@ -31,4 +31,4 @@
 **When you Open Epic games through steam, you can now open fortnite and your steam input should work. Now when you shoot with your controller it will also track the enemy since zelesis Aimbot button is being triggered**\
 
 > [!NOTE]
-> Disclaimer : This method will work for Any non steam games. COD does not work due to them blocking mouse inputs while using a controller, For now its not possible with this method to use zelesis on controller when playing COD, but you can use some other software like rewasd which will work.
+> Disclaimer: This method will work for Any non steam games. COD does not work due to them blocking mouse inputs while using a controller, For now its not possible with this method to use zelesis on controller when playing COD, but you can use some other software like rewasd which will work.
