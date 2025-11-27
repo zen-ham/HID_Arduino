@@ -43,7 +43,7 @@ def push_pull(message):
     push(message)
     pull()
 
-init('https://github.com/zen-ham/HID_Arduino')
+#init('https://github.com/zen-ham/HID_Arduino')
 
 #result = subprocess.run(['git', 'rev-list', '--count', '--all'], capture_output=True, text=True)
 #result = int(result.stdout.strip()) + 1
