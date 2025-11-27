@@ -3,7 +3,7 @@
 
 
 ## Initial Set up
-**First have Steam and Zelesis Installed, Have your Zelesis Target button to LMB (Or what ever button you want the aimbot to be triggered with)**
+**First have Steam and Zelesis Installed, Have your Zelesis Target button to LMB (Or what ever button you want the aimbot to be triggered with)**\
 ![App Screenshot](https://i.imgur.com/wtuTqFi.png)
 
 **Connect your controller and you will be able to access steam inputs, Navigate to the "Triggers" tab and add a second command using the gear icon. Lastly add the button you set as your target button as the second command for the Right Trigger**
