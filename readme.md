@@ -12,6 +12,7 @@
 - **2** Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 
 - **3** Download and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\HID_Arduino`
+![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/step_3.png)
 
 - **4** Download and unpack [this](https://github.com/felis/USB_Host_Shield_2.0/releases/tag/1.6.2) archive into `C:\Users\your_username\Documents\Arduino\libraries\USB_Host_Shield_2.0-1.6.2`
 
