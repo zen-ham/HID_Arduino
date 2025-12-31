@@ -4,7 +4,7 @@
 > [!NOTE]
 > Important: 100% of games I've played, simply having the arduino plugged in and your normal mouse plugged in separately instead of chaining them together works completely fine, and you can skip alot of difficult steps if you are ok with doing it that way, since then you won't have to edit the code at all and can just keep it exactly as is. While writing this I also tested removing the host shield all together, and it continues to work as normal.
 > 
-> This means if you so choose, you **DON'T HAVE TO BUY** the expensive usb host shield at all, and you **DON'T HAVE TO SOLDER** anything on the board and can just go with the much simpler and easier option of just using the Arduino Leonardo on it's own.
+> This means if you so choose, you **DON'T HAVE TO BUY** the expensive usb host shield at all, and you **DON'T HAVE TO SOLDER** anything on the board and can just go with the much simpler and easier option of just using the Arduino Leonardo on its own.
  
 ## Easy mode (No Host Shield):
 - **1** To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`
