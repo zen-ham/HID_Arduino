@@ -1,11 +1,6 @@
 ### Arduino HID mouse
 ## This repository contains HID mouse emulation for the [Zelesis AI Aimbot](https://zelesis.com).
 
-> [!NOTE]
-> Important: 100% of games I've played, simply having the arduino plugged in and your normal mouse plugged in separately instead of chaining them together works completely fine, and you can skip alot of difficult steps if you are ok with doing it that way, since then you won't have to edit the code at all and can just keep it exactly as is. While writing this I also tested removing the host shield all together, and it continues to work as normal.
-> 
-> This means if you so choose, you **DON'T HAVE TO BUY** the expensive usb host shield at all, and you **DON'T HAVE TO SOLDER** anything on the board and can just go with the much simpler and easier option of just using the Arduino Leonardo on its own.
- 
 ## Easy mode (No Host Shield):
 - **1** To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`
 
@@ -14,7 +9,9 @@
 - **3** Download and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\HID_Arduino`
 ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/step_3.png)
 
-- **4** Download and unpack [this](https://github.com/felis/USB_Host_Shield_2.0/releases/tag/1.6.2) archive into `C:\Users\your_username\Documents\Arduino\libraries\USB_Host_Shield_2.0-1.6.2`
+- **4** Download and unpack [this archive](https://github.com/felis/USB_Host_Shield_2.0/releases/tag/1.6.2) into this folder `C:\Users\your_username\Documents\Arduino\libraries\USB_Host_Shield_2.0-1.6.2` \
+When you're done, make sure the files from the archive are in that exact folder as shown above, otherwise things won't work.\
+!! For example, you may need to create the `libraries` folder yourself !!
 
 - **5** Open the file `C:\Users\your_username\Documents\Arduino\HID_Arduino\HID_Arduino.ino`
 
@@ -28,6 +25,11 @@
   ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_ide_select_board_en.png)
 
 ## Advanced mode with Host Shield <small>(Theoretically harder for AC to detect but no AC currently detects either method.)</small>
+
+> [!NOTE]
+> Important: 100% of games I've played, simply having the arduino plugged in and your normal mouse plugged in separately instead of chaining them together works completely fine, and you can skip alot of difficult steps and just do easy mode if you are ok with doing it that way, since then you won't have to edit the code at all and can just keep it exactly as is. While writing this I also tested removing the host shield all together, and it continues to work as normal.
+> 
+> This means if you so choose, you **DON'T HAVE TO BUY** the expensive usb host shield at all, and you **DON'T HAVE TO SOLDER** anything on the board and can just go with the much simpler and easier option of just using the Arduino Leonardo on its own.
 
 - **1** To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`, `ARDUINO USB HOST SHIELD`, and a soldering iron(Optional, if you don't have one, or you can simply buy a pre-soldered board.)
 
