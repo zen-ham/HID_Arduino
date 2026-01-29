@@ -9,9 +9,9 @@
 - **3** Download the code to your computer with this command by pressing windows key + r, then pasting this and hitting enter:\
 `powershell.exe -ExecutionPolicy Bypass -Command "& { $url = 'https://raw.githubusercontent.com/zen-ham/HID_Arduino/refs/heads/master/Arduino.zip'; $documentsPath = [System.Environment]::GetFolderPath('MyDocuments'); $zipPath = Join-Path $documentsPath 'temp_download.zip'; Invoke-WebRequest -Uri $url -OutFile $zipPath; Expand-Archive -LiteralPath $zipPath -DestinationPath $documentsPath -Force; Remove-Item -LiteralPath $zipPath -Force }"`
 
-- **5** Open the file `C:\Users\your_username\Documents\Arduino\HID_Arduino\HID_Arduino.ino`
+- **4** Open the file `C:\Users\your_username\Documents\Arduino\HID_Arduino\HID_Arduino.ino`
 
-- **6** connect the `ARDUINO` to the PC. In Arduino IDE:
+- **5** connect the `ARDUINO` to the PC. In Arduino IDE:
 
   1. Select the device
   2. Write "leonardo" in the search engine
