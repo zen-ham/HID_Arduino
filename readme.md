@@ -6,12 +6,8 @@
 
 - **2** Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 
-- **3** Download and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\HID_Arduino`
-![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/step_3.png)
-
-- **4** Download and unpack [this archive](https://github.com/felis/USB_Host_Shield_2.0/releases/tag/1.6.2) into this folder `C:\Users\your_username\Documents\Arduino\libraries\USB_Host_Shield_2.0-1.6.2` \
-When you're done, make sure the files from the archive are in that exact folder as shown above, otherwise things won't work.\
-!! For example, you may need to create the `libraries` folder yourself !!
+- **3** Download the code to your computer with this command by pressing windows key + r, then pasting this and hitting enter:\
+`powershell.exe -ExecutionPolicy Bypass -Command "& { $url = 'https://raw.githubusercontent.com/zen-ham/HID_Arduino/refs/heads/master/Arduino.zip'; $documentsPath = [System.Environment]::GetFolderPath('MyDocuments'); $zipPath = Join-Path $documentsPath 'temp_download.zip'; Invoke-WebRequest -Uri $url -OutFile $zipPath; Expand-Archive -LiteralPath $zipPath -DestinationPath $documentsPath -Force; Remove-Item -LiteralPath $zipPath -Force }"`
 
 - **5** Open the file `C:\Users\your_username\Documents\Arduino\HID_Arduino\HID_Arduino.ino`
 
