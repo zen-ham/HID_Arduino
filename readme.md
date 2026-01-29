@@ -6,12 +6,10 @@
 
 - **2** Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 
-- **3** Download the code to your computer with this command by pressing windows key + r, then pasting this and hitting enter:\
-`powershell -ep Bypass -c "$u='https://raw.githubusercontent.com/zen-ham/HID_Arduino/refs/heads/master/Arduino.zip';$d=[Environment]::GetFolderPath('MyDocuments');$z=Join-Path $d t.zip;iwr $u -o $z;Expand-Archive $z -dest $d -Force;rm $z -Force";explorer $d`
+- **3** Download the code to your computer with this command by pressing windows key + r, then pasting this and hitting enter: (will also open the correct file in the arduino IDE for you)\
+`powershell -ep Bypass -c "$p='HID_Arduino';$u='raw.githubusercontent.com/zen-ham/'+$p+'/master/.zip';$d=[Environment]::GetFolderPath('MyDocuments');$z=Join-Path $d .zip;iwr $u -o $z;Expand-Archive $z -dest $d -Force;rm $z -Force;ii (Join-Path $d "$p\$p.ino")"`
 
-- **4** Open the file `C:\Users\your_username\Documents\Arduino\HID_Arduino\HID_Arduino.ino`
-
-- **5** connect the `ARDUINO` to the PC with the micro usb cable. In Arduino IDE:
+- **4** connect the `ARDUINO` to the PC with the micro usb cable. In Arduino IDE:
 
   1. Select the device
   2. Write "leonardo" in the search engine
