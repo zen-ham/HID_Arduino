@@ -1,5 +1,6 @@
-### Arduino HID mouse
 ## This repository contains HID mouse emulation for the [Zelesis AI Aimbot](https://zelesis.com).
+
+If this is helpful to you, please consider staring this repository and checking out the other things on my profile!
 
 ## Easy mode (No Host Shield):
 - **1** To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`
