@@ -1,7 +1,5 @@
 ## This repository contains HID mouse emulation for the [Zelesis AI Aimbot](https://zelesis.com).
 
-If this is helpful to you, please consider staring this repository and checking out the other things on my profile!
-
 ## Easy mode (No Host Shield):
 - **1** To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`
 
@@ -18,6 +16,8 @@ If this is helpful to you, please consider staring this repository and checking 
   4. Select the port to which the device is connected
   5. Upload the program to your device
   ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_ide_select_board_en.png)
+
+- **5** Please consider staring this repository and checking out the other things on my profile if this was helpful to you!
 
 ## Advanced mode with Host Shield <small>(Theoretically harder for AC to detect but no AC currently detects either method.)</small>
 
