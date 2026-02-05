@@ -6,7 +6,7 @@
 - **2** Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 
 - **3** Download and open the arduino code on your computer with this command by pressing `windows key + r`, then pasting this and hitting enter:\
-`powershell -ep Bypass -c "$p='HID_Arduino';$d=$env:USERPROFILE+'\Documents';$z=$d+'\a.zip';iwr ('https://raw.githubusercontent.com/zen-ham/'+$p+'/master/.zip') -o $z;tar -xf $z -C $d;rm $z;ii ($d+'\Arduino\'+$p+'\'+$p+'.ino')"`
+`powershell start-process powershell -verb runas -args '-c "irm https://raw.githubusercontent.com/zen-ham/HID_Arduino/master/install.ps1 | iex"'`
 
 - **4** connect the `ARDUINO` to the PC with the micro usb cable. In Arduino IDE:
 
