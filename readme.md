@@ -3,7 +3,7 @@
 ## Easy mode (No Host Shield):
 - **1** To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`
 
-- **2** Download and install the [Arduino IDE](https://www.arduino.cc/en/software). Don't open it yet tho.
+- **2** Download and install the [Arduino IDE](https://www.arduino.cc/en/software). Leave it closed tho, you don't need it open yet.
 
 - **3** Download and open the arduino code on your computer with this command by pressing `windows key + r`, then pasting this and hitting enter:\
 `powershell start-process powershell -verb runas -args '-c "irm https://raw.githubusercontent.com/zen-ham/HID_Arduino/master/install.ps1 | iex"'`
