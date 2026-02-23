@@ -17,7 +17,7 @@
   5. Upload the program to your device
   ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_ide_select_board_en.png)
 
-- **5** Please consider staring this repository and checking out the other things on my profile if this was helpful to you!
+- **5** Consider staring this repo! Please?
 
 ## Advanced mode with Host Shield <small>(Theoretically harder for AC to detect but no AC currently detects either method.)</small>
 
