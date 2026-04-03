@@ -4,7 +4,7 @@
 
 
 - **2** Flash the firmware
-	- Hold BOOT button on the Feather
+	- Hold BOOT button on the rp
 	- While holding BOOT, tap RESET, then release BOOT
 	- RPI-RP2 drive appears — drag [V4_Zelesis.ino.uf2](https://raw.githubusercontent.com/zen-ham/HID_Arduino/refs/heads/master/rp2040_rp2350/rp2040_firmware/V4_Zelesis.ino.uf2) onto it
 	- Board reboots.
