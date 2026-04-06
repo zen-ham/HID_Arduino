@@ -1,5 +1,9 @@
 ## This repository contains HID mouse emulation for the [Zelesis AI Aimbot](https://zelesis.com).
 
+## *READ THIS FIRST:*
+> [!NOTE]
+> I'd HIGHLY RECOMMEND using the RP2040 instead of an arduino. Unless you have a very good reason, you should definitely choose the RP2040 instead as it is safer. [Guide here](https://github.com/zen-ham/HID_Arduino/tree/master/rp2040_rp2350)
+
 ## Easy mode (No Host Shield):
 - **1** To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`
 
