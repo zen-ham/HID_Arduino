@@ -1,7 +1,7 @@
 ## RP2040/RP2350 setup guide
 
 - **1** Acquire an RP2040 ***with Type A host***. You can get one from aliexpress or adafruit directly, or any other market.
-- Again, ***with Type A host***. One without would be useless. [Example of hat the correct board looks like](https://core-electronics.com.au/adafruit-feather-rp2040-with-usb-type-a-host.html) [Example of what to search for](https://www.aliexpress.us/w/wholesale-rp2040-type-a-host.html?g=y&SearchText=rp2040+type+a+host)
+- Again, ***with Type A host***. One without would be useless. [Example of what the correct board looks like](https://core-electronics.com.au/adafruit-feather-rp2040-with-usb-type-a-host.html) [Example of what to search for](https://www.aliexpress.us/w/wholesale-rp2040-type-a-host.html?g=y&SearchText=rp2040+type+a+host)
 
 
 - **2** Flash the firmware
