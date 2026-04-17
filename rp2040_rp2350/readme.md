@@ -25,5 +25,5 @@
 
 
 Alternate firmware if the provided one doesn't work for your mouse:
-[Alternate firmware 1](https://raw.githubusercontent.com/zen-ham/HID_Arduino/refs/heads/master/rp2040_rp2350/rp2040_firmware/v3/V3_Zelesis.ino.uf2)
-[Alternate firmware 2](https://raw.githubusercontent.com/zen-ham/HID_Arduino/refs/heads/master/rp2040_rp2350/rp2040_firmware/v4/V4_Zelesis.ino.uf2)
+[Alternate firmware 1](https://raw.githubusercontent.com/zen-ham/HID_Arduino/refs/heads/master/rp2040_rp2350/rp2040_firmware/v4/V4_Zelesis.ino.uf2)
+[Alternate firmware 2](https://raw.githubusercontent.com/zen-ham/HID_Arduino/refs/heads/master/rp2040_rp2350/rp2040_firmware/v3/V3_Zelesis.ino.uf2)
