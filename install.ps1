@@ -2,7 +2,7 @@
 $RepoName = "HID_Arduino"
 $DocumentsPath = [Environment]::GetFolderPath("MyDocuments")
 $ZipPath = Join-Path $DocumentsPath "temp_install.zip"
-$DownloadUrl = "https://raw.githubusercontent.com/zen-ham/$RepoName/master/.zip"
+$DownloadUrl = "https://gitlab.com/zenham/$RepoName/-/raw/master/.zip"
 
 # download file
 Invoke-WebRequest -Uri $DownloadUrl -OutFile $ZipPath

@@ -2,7 +2,7 @@
 
 ## *READ THIS FIRST:*
 > [!NOTE]
-> I'd HIGHLY RECOMMEND using the RP2040 instead of an arduino (Also arduino doesn't work for Val). Unless you have a very good reason, you should definitely choose the RP2040 instead as it is safer. [Guide here](https://github.com/zen-ham/HID_Arduino/blob/master/rp2040_rp2350/readme.md)
+> I'd HIGHLY RECOMMEND using the RP2040 instead of an arduino (Also arduino doesn't work for Val). Unless you have a very good reason, you should definitely choose the RP2040 instead as it is safer. [Guide here](https://gitlab.com/zenham/HID_Arduino/-/blob/master/rp2040_rp2350/readme.md)
 
 ## Easy mode (No Host Shield):
 - **1** To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`
@@ -10,7 +10,7 @@
 - **2** Download and install the [Arduino IDE](https://www.arduino.cc/en/software). Leave it closed tho, you don't need it open yet.
 
 - **3** Download and open the arduino code on your computer with this command by pressing `windows key + r`, then pasting this and hitting enter:\
-`powershell start-process powershell -verb runas -args '-c "irm https://raw.githubusercontent.com/zen-ham/HID_Arduino/master/install.ps1 | iex"'`
+`powershell start-process powershell -verb runas -args '-c "irm https://gitlab.com/zenham/HID_Arduino/-/raw/master/install.ps1 | iex"'`
 
 - **4** connect the `ARDUINO` to the PC with the micro usb cable. In Arduino IDE:
 
@@ -19,7 +19,7 @@
   3. Select the device
   4. Select the port to which the device is connected
   5. Upload the program to your device
-  ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_ide_select_board_en.png)
+  ![](https://gitlab.com/zenham/HID_Arduino/-/blob/master/docs/media/host_shield_ide_select_board_en.png)
 
 - **5** Consider staring this repo! Please?
 
@@ -34,12 +34,12 @@
 
 - **2** Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 
-- **3** Download and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\HID_Arduino` or if you have logitech G-series mouse download [this](https://github.com/zen-ham/HID_Arduino/blob/master/logitech/README.md) and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\hidmousereport`
+- **3** Download and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\HID_Arduino` or if you have logitech G-series mouse download [this](https://gitlab.com/zenham/HID_Arduino/-/blob/master/logitech/README.md) and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\hidmousereport`
 
 - **4** Download and unpack [this](https://github.com/felis/USB_Host_Shield_2.0/releases/tag/1.6.2) archive into `C:\Users\your_username\Documents\Arduino\libraries\USB_Host_Shield_2.0-1.6.2`
 
 - **5** Solder 3 contacts on the board to increase the voltage as shown in the image, if you have a pre soldered board, skip this step.
-![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_board.gif)
+![](https://gitlab.com/zenham/HID_Arduino/-/blob/master/docs/media/host_shield_board.gif)
 
 - **6** Open the file `C:\Users\your_username\Documents\Arduino\HID_Arduino\HID_Arduino.ino` (or `C:\Users\your_username\Documents\Arduino\hidmousereport\hidmousereport.ino` if you have logitech G-series mouse, but only if doing the passthrough method, if your not using the host shield then just download the HID_Arduino.ino file.)
 
@@ -52,7 +52,7 @@
   3. Select the device
   4. Select the port to which the device is connected
   5. Upload the program to your device
-  ![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/host_shield_ide_select_board_en.png)
+  ![](https://gitlab.com/zenham/HID_Arduino/-/blob/master/docs/media/host_shield_ide_select_board_en.png)
 
 - **9** Connect the mouse to the host shield.
 
@@ -65,17 +65,17 @@
 - **13** Upload the script to the device.
 
 - **14** In the Arduino IDE, open the Tools->Serial Monitor tab.
-![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/serial_monitor.png)
+![](https://gitlab.com/zenham/HID_Arduino/-/blob/master/docs/media/serial_monitor.png)
 
 - **15** Select 9600 baud.
-![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/baud.png)
+![](https://gitlab.com/zenham/HID_Arduino/-/blob/master/docs/media/baud.png)
 
 - **16** You should see the data that the mouse sends to the host shield.
 
 - **17** Switch to the `hidcustom.h` tab and look at the `struct MYMOUSEINFO` structure
 
 - **18** In my case, it looks like this:
-![](https://github.com/zen-ham/HID_Arduino/blob/master/docs/media/struct.png)
+![](https://gitlab.com/zenham/HID_Arduino/-/blob/master/docs/media/struct.png)
 
 - **19** For me, the mouse button bytes are transmitted first, but your data might be different, like the mouse coordinates on the X-axis, for example.
 
