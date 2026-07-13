@@ -7,7 +7,7 @@
 - **2** Flash the firmware
 	- Hold BOOT button on the rp
 	- While holding BOOT, tap RESET, then release BOOT
-	- RPI-RP2 drive appears — drag [V5.26_Zelesis.ino.uf2](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v5/V5.26_Zelesis.ino.uf2) onto it
+	- RPI-RP2 drive appears — drag [V5.26_Zelesis.ino.uf2](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v5/V5_27_Zelesis.ino.uf2) onto it
 	- Board reboots.
 
 
@@ -27,3 +27,4 @@
 Alternate firmware if the provided one doesn't work for your mouse:
 [Alternate firmware 1](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v4/V4_Zelesis.ino.uf2)
 [Alternate firmware 2](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v3/V3_Zelesis.ino.uf2)
+[Alternate firmware 3](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v5/V5.26_Zelesis.ino.uf2)
