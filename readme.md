@@ -2,7 +2,7 @@
 
 ## *READ THIS FIRST:*
 > [!NOTE]
-> I'd HIGHLY RECOMMEND using the RP2040 instead of an arduino (Also arduino doesn't work for Val). Unless you have a very good reason, you should definitely choose the RP2040 instead as it is safer. [Guide here](https://gitlab.com/zenham/HID_Arduino/-/blob/master/rp2040_rp2350/readme.md)
+> I'd HIGHLY RECOMMEND using the RP2040 instead of an arduino (Also arduino doesn't work for Val). Unless you have a very good reason, you should definitely choose the RP2040 instead as it is safer. [Guide here](https://github.com/zen-ham/HID_Arduino/blob/master/rp2040_rp2350/readme.md)
 
 ## Easy mode (No Host Shield):
 - **1** To get started, acquire an `Arduino Leonardo R3 ATMEGA32U4`
@@ -34,7 +34,7 @@
 
 - **2** Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 
-- **3** Download and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\HID_Arduino` or if you have logitech G-series mouse download [this](https://gitlab.com/zenham/HID_Arduino/-/blob/master/logitech/README.md) and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\hidmousereport`
+- **3** Download and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\HID_Arduino` or if you have logitech G-series mouse download [this](https://github.com/zen-ham/HID_Arduino/blob/master/logitech/README.md) and unpack the repository archive to `C:\Users\your_username\Documents\Arduino\hidmousereport`
 
 - **4** Download and unpack [this](https://github.com/felis/USB_Host_Shield_2.0/releases/tag/1.6.2) archive into `C:\Users\your_username\Documents\Arduino\libraries\USB_Host_Shield_2.0-1.6.2`
 
