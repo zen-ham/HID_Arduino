@@ -4,13 +4,12 @@
 - Again, ***with Type A host***. One without would be useless. [Example of what the correct board looks like](https://core-electronics.com.au/adafruit-feather-rp2040-with-usb-type-a-host.html) [Example of what to search for](https://www.aliexpress.us/w/wholesale-rp2040-type-a-host.html?g=y&SearchText=rp2040+type+a+host)
 
 
-- **2** Flash the firmware (this is the V6.1 firmware)
+- **2** Flash the firmware (this is the new V6 firmware)
 	- Hold BOOT button on the rp
 	- While holding BOOT, tap RESET, then release BOOT
 	- RPI-RP2 drive appears, drag [V6_Zelesis.uf2](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v6/V6_Zelesis.uf2) onto it
 	- Board reboots.
 	- Coming from V5? Same steps, just flash V6 over it. Nothing to uninstall.
-	- **From V6.1 the board only moves the mouse for Zelesis, and it needs a Zelesis version newer than 4.7.0.** When Zelesis connects, it gets a signed ticket from our server and hands it to the board (the RP2040 line in Zelesis shows "RP2040 unlocking...", then "RP2040 connected"). An older Zelesis cannot unlock the board, so it would not be able to move the mouse. If you flashed an earlier V6 before, you do not have to do anything, it keeps working as it did.
 
 
 - **3** Set up your devices as so:
@@ -20,7 +19,7 @@
   - The first time, and any time you swap to a different mouse, the board learns the new mouse by itself. The light goes fast cyan, then green, then it reboots once. No reflashing needed.
 
 
-- **4** inside Zelesis (the latest version, newer than 4.7.0), select the mouse input as RP2040. You are done.
+- **4** inside Zelesis (the latest version), select the mouse input as RP2040. You are done.
   - Leave VID and PID on 0, the defaults. V6 copies your own mouse's VID and PID, so the old V5 values (1118 / 203) will NOT work with it. If you entered them before, set them back to 0.
 
 
@@ -39,10 +38,10 @@
 
 ### Troubleshooting
 
-- **Zelesis says "RP2040 not connected"**: check you are on the latest Zelesis (newer than 4.7.0), that VID and PID are both 0, that the board is plugged straight into the PC (not a hub), and that the light on the board is on.
-- **Zelesis says "RP2040 locked: server unreachable"**: the board is waiting for Zelesis to reach our license server. Check your internet connection and firewall, it keeps retrying by itself.
-- **Zelesis says "RP2040 locked: unlock refused"**: our server did not give the board a ticket (license not active, or the same key used on too many boards in one day). It retries every minute. If it stays like that, open a ticket.
-- **The mouse takes a moment to light up when the board starts**: normal. At every start the board briefly cuts the power of its USB-A port and turns it back on, so a mouse that got stuck recovers by itself. If the mouse stays dark for more than about 10 seconds, unplug the mouse for 10 seconds, plug it back in and tell us.
+- **Zelesis says "RP2040 not connected"**: check you are on the latest Zelesis, that VID and PID are both 0, that the board is plugged straight into the PC (not a hub), and that the light on the board is on.
+- **Zelesis says "server unreachable"**: Zelesis cannot reach our server. Check your internet connection and firewall, it keeps retrying by itself.
+- **Zelesis says "server rate limit"**: our server is limiting requests from you right now. It keeps retrying by itself. If it stays like that, open a ticket.
+- **The mouse does not work after about 30 seconds**: open a ticket.
 - **Something is still wrong?** Open a ticket and tell us which mouse you use. We will send you a small diagnostic tool that shows what the board sees, which is how we sort out mouse compatibility problems.
 - **A mouse that does not work right through the board**: open a ticket and say which mouse it is, then run the diagnostic tool we send you. V6 has been tested with gaming mice, cheap low speed office mice and a 2.4 GHz wireless receiver, and mouse software like Logitech G HUB keeps working through the board.
 - **RP2350 boards**: V6 is RP2040 only for now. The RP2350 firmware in the [rp2350_firmware](https://gitlab.com/zenham/HID_Arduino/-/tree/master/rp2040_rp2350/rp2350_firmware) folder is the older V4.
