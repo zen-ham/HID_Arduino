@@ -39,12 +39,12 @@
 ### Troubleshooting
 
 - **Zelesis says "RP2040 not connected"**: check you are on Zelesis 4.6.7 or newer, that VID and PID are both 0, that the board is plugged straight into the PC (not a hub), and that the light on the board is on.
-- **Send a diagnostic report**: download [V6_report.ps1](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v6/V6_report.ps1), right click it and choose Run with PowerShell (or run `powershell -ExecutionPolicy Bypass -File V6_report.ps1`), then copy everything it prints and send it. It shows the mouse the board learned, the board's health, anything it recorded going wrong, and it warns you if the board is behind a hub.
-- **A mouse that does not work right through the board**: send the report above and say which mouse it is. V6 has been tested with gaming mice, cheap low speed office mice and a 2.4 GHz wireless receiver, and mouse software like Logitech G HUB keeps working through the board.
+- **Something is still wrong?** Open a ticket and tell us which mouse you use. We will send you a small diagnostic tool that shows what the board sees, which is how we sort out mouse compatibility problems.
+- **A mouse that does not work right through the board**: open a ticket and say which mouse it is, then run the diagnostic tool we send you. V6 has been tested with gaming mice, cheap low speed office mice and a 2.4 GHz wireless receiver, and mouse software like Logitech G HUB keeps working through the board.
 - **RP2350 boards**: V6 is RP2040 only for now. The RP2350 firmware in the [rp2350_firmware](https://gitlab.com/zenham/HID_Arduino/-/tree/master/rp2040_rp2350/rp2350_firmware) folder is the older V4.
 
 
-Previous firmware, if V6 doesn't work for your mouse (please send me the report so I can fix it):\
+Previous firmware, if V6 doesn't work for your mouse (please open a ticket so we can fix it):\
 [V5.27, the previous default. For V5 set VID 1118 and PID 203 in Zelesis if it does not connect with the defaults](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v5/V5_27_Zelesis.uf2)\
 [Alternate firmware 1](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v4/V4_Zelesis.ino.uf2)\
 [Alternate firmware 2](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v3/V3_Zelesis.ino.uf2)\
