@@ -7,7 +7,7 @@
 - **2** Flash the firmware (this is the new V6 firmware)
 	- Hold BOOT button on the rp
 	- While holding BOOT, tap RESET, then release BOOT
-	- RPI-RP2 drive appears, drag [V6_Zelesis.uf2](https://gitlab.com/zenham/HID_Arduino/-/raw/master/rp2040_rp2350/rp2040_firmware/v6/V6_Zelesis.uf2) onto it
+	- RPI-RP2 drive appears, drag [the V6 firmware, V6_Zelesis_6.3.0.uf2](https://pub-cce7b574c2964e9292e6176948724eee.r2.dev/firmware/V6_Zelesis_6.3.0.uf2) onto it
 	- Board reboots.
 	- Coming from V5? Same steps, just flash V6 over it. Nothing to uninstall.
 
